@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Worst Time Simulator</title>
+<style>
+body { margin:0; background:black; overflow:hidden; }
+canvas { display:block; margin:auto; }
+</style>
+</head>
+<body>
+
+<canvas id="c2canvas" width="640" height="480"></canvas>
+
+<script src="jquery-3.4.1.min.js"></script>
+
+<script src="c2runtime.js"></script>
+
+<script>
+jQuery(document).ready(function () {
+    cr_createRuntime("c2canvas");
+});
+</script>
+
+</body>
+</html>
